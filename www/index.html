@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Piedra, papel o tijera</title>
+	<!-- Jquery desde CDN -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<!-- Bootstrap desde CDN -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	
+	<script src="js/config.js"></script>
+	<script src="js/juego.js"></script>
+	
+	<!-- Detalles de estilo en CSS personaliozados -->
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+</head>
+<body>
+
+	<div id="inicioJuego">
+  		<div class="div-center">
+			<div class="content-center">
+				<h1 align="center">Piedra, papel o tijera</h1>
+				<h2 align="center">Bienvenido</h2>	
+
+				
+					<p align="center">Puedes iniciar una partida o unirte a una con él código</p>
+					
+					<button class="ruta block" href="jugar.html" onclick="iniciarJuego(0)">Nuevo</button>
+
+					<div class="input-group mb-3">
+					  <input type="text" class="form-control" placeholder="Aquí código" id="codigoJuego">
+					  <div class="input-group-append">
+					    <button class="btn btn-outline-secondary ruta" href="jugar.html" onclick="iniciarJuego($('#codigoJuego').val())">Ingresar código</button>
+					  </div>
+					</div>
+
+				
+
+		    </div>
+		</div>
+	</div>
+
+	<div id="ingresaMuestraCodigo">
+		<h4 align="center">Código de juego</h4>
+		<h2 align='center' id='linkJuego'></h2>
+	</div>
+
+	<!-- Donde carga el juego -->
+	<div class="container" id="contenido">
+
+	</div>
+	
+			
+</div>
+
+
+
+
+
+
+
+</body>
+</html>

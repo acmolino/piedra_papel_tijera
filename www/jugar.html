@@ -1,0 +1,26 @@
+<!-- Desarrollo de juego-->
+<h1 align="center" id="tituloEnJuego">Selecciona tu jugada</h1>
+
+<div id="decisionJugada">
+	<div class="row justify-content-center">
+		<div class="col-md-4"><img src="img/piedra.png" width="200" class="img-fluid" onclick="ingresarJugada(1); realizarAnalisisJuego()"></div>
+		<div class="col-md-4"><img src="img/papel.png" width="200" class="img-fluid" onclick="ingresarJugada(2); realizarAnalisisJuego()"></div>
+		<div class="col-md-4"><img src="img/tijera.png" width="200" class="img-fluid" onclick="ingresarJugada(3); realizarAnalisisJuego()"></div>	
+	</div>
+</div>
+
+<div id="separacionIntermedia"><br><br></div>
+
+<div id="jugadaTotalVista">
+	<div class="row justify-content-center">
+		<div class="col-md-2"></div>
+		<div class="col-md-3"><h1 align="center">Mi jugada</h1><img src="" id="miJugada"></div>
+		<div class="col-md-2"></div>
+		<div class="col-md-3"><h1 align="center">Rival</h1><div id="cargando" class="loader"></div><img src="" id="jugadaRival"></div>
+		<div class="col-md-2"></div>
+	</div>
+	<center><h2 id="resultado" style="color: red;"></h2></center>
+</div>
+
+
+
