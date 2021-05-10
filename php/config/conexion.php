@@ -22,7 +22,7 @@ class conexionBD{
             die($e->getMessage());
 
         }
-    		//Atributos de la base
+    //Atributos de la base
     $this->db->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
     $this->db->setAttribute(PDO::MYSQL_ATTR_USE_BUFFERED_QUERY, true);
     $this->db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
