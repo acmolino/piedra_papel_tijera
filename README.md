@@ -4,5 +4,8 @@ Juego de "Piedra papel o tijera" para jugar en modo VS online. Desarrollado con 
 
 
 #Configuraciones necesarias
-php/config/conexion.php
-  Configuramos la conexion a la base de datos
+*php/config/conexion.php
+  ->Configuramos la conexion a la base de datos
+*php/index ->
+  
+  
