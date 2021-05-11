@@ -13,7 +13,7 @@ class conexionBD{
     $this->servername = "localhost";
     $this->username = "root";
     $this->password = "1234";
-    $this->dbname = "ej_personas";
+    $this->dbname = "ppt_juego";
 
     try {
       $this->db = new PDO('mysql:host='.$this->servername.';dbname='.$this->dbname.';charset=utf8', $this->username, $this->password);
