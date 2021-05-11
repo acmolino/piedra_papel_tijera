@@ -5,6 +5,9 @@ Falta agregar VS computadora.
 
 ## Configuraciones necesarias
 
+**Creación de base de datos**
+- archivo ppt_juego.sql
+
 **php/config/conexion.php**
  - Configuramos la conexion a la base de datos
   ```php
