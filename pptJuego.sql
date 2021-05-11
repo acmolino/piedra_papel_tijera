@@ -14,7 +14,7 @@
 
 
 -- Volcando estructura de base de datos para ej_personas
-CREATE DATABASE IF NOT EXISTS `ej_personas` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
+CREATE DATABASE IF NOT EXISTS `ppt_juego` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
 USE `ej_personas`;
 
 -- Volcando estructura para tabla ej_personas.juego
